@@ -2,7 +2,7 @@ import './App.scss';
 import CreateSection from './components/Section';
 import AppFooter from './components/AppFooter';
 import AppHeader from './components/AppHeader';
-import ServicesPage from './views/Introduction';
+import ServicesPage from './views/Services';
 import LandingPage from './views/Landing';
 import ContactsPage from './views/Contacts';
 import TeamsPage from './views/Teams';
