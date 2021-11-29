@@ -2,10 +2,10 @@ import './App.scss';
 import Divider from '@mui/material/Divider';
 import AppFooter from './components/AppFooter';
 import AppHeader from './components/AppHeader';
-import IntroductionPage from './views/IntroductionPage';
-import LandingPage from './views/LandingPage';
-import ContactsPage from './views/ContactsPage';
-import TeamsPage from './views/TeamsPage';
+import IntroductionPage from './views/Introduction';
+import LandingPage from './views/Landing';
+import ContactsPage from './views/Contacts';
+import TeamsPage from './views/Teams';
 
 function AppContent() {
   return (
