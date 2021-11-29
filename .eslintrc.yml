@@ -1,0 +1,17 @@
+---
+root: true
+env:
+  browser: true
+plugins:
+  - "react"
+extends:
+  - "@chookslint"
+  - "plugin:react/recommended"
+  - "plugin:react/jsx-runtime"
+parserOptions:
+  ecmaFeatures:
+    jsx: true
+  sourceType: module
+rules:
+  sort-imports: off
+  func-style: off
