@@ -6,7 +6,7 @@ export default function AppFooter() {
     <AppBar
       component="footer"
       className="AppFooter"
-      position="fixed"
+      position="static"
       color="primary"
       sx={{ top: 'auto', bottom: 0 }}
     >
