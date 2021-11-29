@@ -1,4 +1,5 @@
 import './App.scss';
+import Divider from '@mui/material/Divider';
 import AppFooter from './components/AppFooter';
 import AppHeader from './components/AppHeader';
 import IntroductionPage from './views/IntroductionPage';
@@ -12,12 +13,15 @@ function AppContent() {
       <section id="landing">
         <LandingPage />
       </section>
+      <Divider />
       <section id="introduction">
         <IntroductionPage />
       </section>
+      <Divider />
       <section id="team">
         <TeamsPage />
       </section>
+      <Divider />
       <section id="contacts">
         <ContactsPage />
       </section>
