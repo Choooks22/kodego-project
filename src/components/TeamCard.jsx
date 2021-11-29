@@ -13,7 +13,7 @@ export default function TeamCard(props) {
   return (
     <Card className="TeamCard" sx={{ maxWidth: '27.5rem' }}>
       <CardHeader
-        avatar={<Avatar src={props.icon} aria-label="" />}
+        avatar={<Avatar src={props.icon} />}
         title={props.name}
         subheader={props.title}
         action={<GitHubIcon username={props.username} />}
