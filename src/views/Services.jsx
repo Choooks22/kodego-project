@@ -1,8 +1,6 @@
 import './Services.scss';
 
 export default function IntroductionPage() {
-
-
   return (
     <>
       <h1>Services Offered</h1>
@@ -17,7 +15,7 @@ export default function IntroductionPage() {
             </p>
           </div>
           <div className="btn">
-            <a target="_blank" href="https://www.youtube.com/watch?v=2iHoeHVmw0Q">
+            <a target="_blank" href="https://www.youtube.com/watch?v=2iHoeHVmw0Q" rel="noreferrer">
               <button>View more</button>
             </a>
           </div>
@@ -32,7 +30,7 @@ export default function IntroductionPage() {
             </p>
           </div>
           <div className="btn">
-            <a target="_blank" href="https://www.youtube.com/watch?v=2iHoeHVmw0Q">
+            <a target="_blank" href="https://www.youtube.com/watch?v=2iHoeHVmw0Q" rel="noreferrer">
               <button>View more</button>
             </a>
           </div>
