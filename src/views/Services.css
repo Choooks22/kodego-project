@@ -1,0 +1,43 @@
+.servicebody{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+}
+h3{
+    letter-spacing: 3px;
+}
+.card{
+    width:400px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    animation: ease-in-out;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px -5px;
+}
+.imagecontainer{
+    overflow: hidden;
+    height: 200px;
+}
+.cardbody{
+    padding: 20px;
+    line-height: 30px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.btn button{
+    cursor: pointer;
+    border: none;
+}
