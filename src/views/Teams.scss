@@ -1,1 +1,6 @@
-/* Styles here */
+.TeamCardContainer {
+  display: flex !important;
+  align-items: center;
+  flex-flow: column wrap;
+  gap: 1rem;
+}
