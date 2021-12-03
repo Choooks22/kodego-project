@@ -15,18 +15,21 @@ export default function TeamsPage() {
           name="Isiah Kayl Nabablit"
           title="Backend Developer"
           username="Choooks22"
+          portfolio="#"
         />
         <TeamCard
           icon="https://avatars.githubusercontent.com/u/93632907"
           name="Jojo de los Santos"
           title="Fullstack Developer"
           username="jojodelossantos1563"
+          portfolio="#"
         />
         <TeamCard
           icon="https://avatars.githubusercontent.com/u/42108343"
           name="Michael Fernandez"
           title="Fullstack Developer"
           username="fmik3r"
+          portfolio="#"
         />
       </Container>
     </>

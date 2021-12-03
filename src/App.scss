@@ -1,12 +1,12 @@
 section {
-  min-height: 100vh;
+  min-height: calc(100vh - 64px);
   padding: 1em;
   display: flex;
   align-items: center;
   justify-content: center;
+  scroll-margin: 64px;
 }
 
 #landing {
   margin-top: 64px;
-  min-height: calc(100vh - 64px);
 }

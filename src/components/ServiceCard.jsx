@@ -8,10 +8,10 @@ import Button from '@mui/material/Button';
 
 export default function ServiceCard(props) {
   return (
-    <Card sx={{ maxWidth: 344 }}>
+    <Card sx={{ width: 420 }}>
       <CardMedia
         component="img"
-        sx={{ height: 220 }}
+        sx={{ height: 230 }}
         image={props.image}
         alt={props.title}
       />
@@ -20,12 +20,12 @@ export default function ServiceCard(props) {
           {props.title}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis excepturi nostrum aperiam reprehenderit ea suscipit optio odit? Veritatis, veniam eligendi?
+          {props.desc ?? 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis excepturi nostrum aperiam reprehenderit ea suscipit optio odit? Veritatis, veniam eligendi?'}
         </Typography>
       </CardContent>
       <CardActions>
         <Button variant="text">
-          View More
+          Learn More
         </Button>
       </CardActions>
     </Card>
@@ -35,4 +35,5 @@ export default function ServiceCard(props) {
 ServiceCard.propTypes = {
   image: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
+  desc: PropTypes.string,
 };

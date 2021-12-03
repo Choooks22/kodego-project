@@ -16,7 +16,7 @@ export default function AppHeader(props) {
   const menu = useRef(null);
 
   return (
-    <AppBar className="AppHeader" position="fixed" color="primary">
+    <AppBar className="AppHeader" position="fixed" color="primary" sx={{ height: '64px' }}>
       <Toolbar>
         <Box sx={{ display: { xs: 'flex', sm: 'none' } }}>
           <IconButton sx={{ marginRight: '1rem' }} ref={menu} onClick={() => setOpen(!open)}>
@@ -29,22 +29,28 @@ export default function AppHeader(props) {
           anchorEl={menu.current}
         >
           <MenuItem>
+            <Typography component="a" href="#">Home</Typography>
+          </MenuItem>
+          <MenuItem>
             <Typography component="a" href="#services">Services</Typography>
           </MenuItem>
           <MenuItem>
             <Typography component="a" href="#team">Team</Typography>
           </MenuItem>
-          <MenuItem>
+          {/* <MenuItem>
             <Typography component="a" href="#contacts">Contact Us</Typography>
-          </MenuItem>
+          </MenuItem> */}
         </Menu>
-        <Typography variant="h6">
-          {props.title}
-        </Typography>
+        <a href="#">
+          <Typography variant="h6">
+            {props.title}
+          </Typography>
+        </a>
         <Box sx={{ display: { xs: 'none', sm: 'flex' }, gap: '1rem' }} ml="auto">
+          <Button component="a" href="#" variant="text" color="inherit">Home</Button>
           <Button component="a" href="#services" variant="text" color="inherit">Services</Button>
           <Button component="a" href="#team" variant="text" color="inherit">Team</Button>
-          <Button component="a" href="#contacts" variant="text" color="inherit">Contact Us</Button>
+          {/* <Button component="a" href="#contacts" variant="text" color="inherit">Contact Us</Button> */}
         </Box>
       </Toolbar>
     </AppBar>

@@ -4,7 +4,7 @@ import AppFooter from './components/AppFooter';
 import AppHeader from './components/AppHeader';
 import ServicesPage from './views/Services';
 import LandingPage from './views/Landing';
-import ContactsPage from './views/Contacts';
+// import ContactsPage from './views/Contacts';
 import TeamsPage from './views/Teams';
 
 export default function App() {
@@ -15,7 +15,7 @@ export default function App() {
         <CreateSection id="landing" content={LandingPage} />
         <CreateSection id="services" content={ServicesPage} />
         <CreateSection id="team" content={TeamsPage} />
-        <CreateSection id="contacts" content={ContactsPage} noDivider />
+        {/* <CreateSection id="contacts" content={ContactsPage} noDivider /> */}
       </main>
       <AppFooter />
     </>

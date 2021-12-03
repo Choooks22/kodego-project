@@ -17,7 +17,7 @@ export default function TeamCard(props) {
         />
         <CardActions>
           <Button href={`https://github.com/${props.username}`} target="_blank">GitHub</Button>
-          <Button href={`https://github.com/${props.username}`} target="_blank">Portfolio</Button>
+          <Button href={props.portfolio} target="_blank">Portfolio</Button>
         </CardActions>
       </Box>
       <CardMedia
